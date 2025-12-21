@@ -1,10 +1,7 @@
 import { useState } from 'react';
+import { Photo } from './types';
 
-interface Photo {
-  id: number;
-  url: string;
-  title: string;
-}
+
 
 const PHOTOS: Photo[] = [
   {
@@ -50,7 +47,7 @@ const PHOTOS: Photo[] = [
 ];
 
 function App() {
-  const [selectedId, setSelectedId] = useState < number | null > (null);
+  const [selectedId, setSelectedId] = useState<number | null>(null);
   const selectedPhoto = PHOTOS.find((p) => p.id === selectedId);
 
   return (
@@ -58,7 +55,7 @@ function App() {
       <div className="max-w-7xl mx-auto px-4 py-16 sm:px-6 lg:px-8">
         <div className="text-center mb-16">
           <h1 className="text-5xl sm:text-6xl font-bold text-slate-900 mb-4">
-            See You Soon
+            sricharan bidai yojana 🫡🥺😞
           </h1>
           <p className="text-xl text-slate-600 max-w-2xl mx-auto">
             A collection of memories from before the big California adventure. We'll miss you!
