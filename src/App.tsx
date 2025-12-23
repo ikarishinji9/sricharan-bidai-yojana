@@ -48,10 +48,6 @@ function App() {
                 />
               )}
 
-              {/* Minimalist Label */}
-              <div className="absolute top-4 right-4 bg-slate-100/80 backdrop-blur-sm px-2 py-1 rounded md text-[10px] font-bold text-slate-500 border border-slate-200">
-                {item.id} / {PHOTOS.length}
-              </div>
             </div>
 
             {/* Title below the card for a cleaner "gallery" look */}
