@@ -19,5 +19,15 @@ export const PHOTOS: Photo[] = [
         url: './diwali_party.jpg',
         title: 'Diwali Memories',
     },
+    {
+        id:4,
+        url:'./icecream_kha_ungi.mp4',
+        title:'Ice Cream Khaungi',
+    },
+    {
+        id: 5,
+        url:'./who_is_the_lucky_girl👀.jpeg',
+        title:'who is the lucky girl',
+    },
     
 ];
